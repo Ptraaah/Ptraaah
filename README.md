@@ -1,11 +1,32 @@
 # ptraaa
 
-Builder of small tools that earn their keep, and of **AMERTA Roleplay**, a SA-MP city lived by your own thinking.
+Indonesian builder of small tools that earn their keep. I build in public, ship small and often, and everything below is live and free to use.
 
-## Things I have built
+Lived by your own thinking.
 
-- [AMERTA Roleplay](https://amerta.pages.dev) - a living SA-MP / open.mp roleplay city: player economy, jobs with EXP levels, elections, documents and licences, all running live
-- [ZeroServer](https://ptraaah.github.io/zeroserver/) - send files straight from one browser to another: no file server, no account, no size limit set by a service
+## Live products
+
+- [ZeroServer](https://ptraaah.github.io/zeroserver/) - send files straight from one browser to another: no file server, no account, no size limit set by a service. One single HTML file, verified with SHA-256 on arrival. [Source](https://github.com/Ptraaah/zeroserver)
+- [AMERTA Roleplay](https://amerta.pages.dev) - a living SA-MP / open.mp roleplay city: player economy, jobs with EXP levels, elections, documents and licences, running live. [Join the Discord](https://discord.gg/qTVC7px7sV)
+
+## Open source contributions
+
+Merged into other people's projects:
+
+- [Prestashop-MCP-Server](https://github.com/novalo-dev/Prestashop-MCP-Server/pull/160) - the somcp_list_return_statuses tool, shipped in release 1.1.2
+- [arcpanel](https://github.com/arc-panel-oss/arcpanel/pull/22) - BATS tests for the timezone listing
+
+In review or assigned right now:
+
+- Prestashop-MCP-Server: [create return status](https://github.com/novalo-dev/Prestashop-MCP-Server/pull/162), with the update and delete tools assigned to me next
+- arcpanel: BATS for [shells and database types](https://github.com/arc-panel-oss/arcpanel/pull/24), [user packages and DNS templates](https://github.com/arc-panel-oss/arcpanel/pull/25), and a [locale script fix](https://github.com/arc-panel-oss/arcpanel/pull/26) that took a converter from 0 locales working to all 42
+- [codecarbon](https://github.com/mlco2/codecarbon/pull/1471) - monitor command help that finally explains how to track a command
+- [yazses](https://github.com/MSKazemi/yazses/pull/743) - native-speaker review of the Indonesian docs
+- [Sniffnet](https://github.com/GyulyVGC/sniffnet/pull/1345) - completing the Indonesian translation
+- [DIO](https://github.com/nisaral/DIO/pull/31) - a --version flag and a check-config command, with tests
+
+## Small tools, one job each
+
 - [LivingCity](https://github.com/Ptraaah/livingcity) - a city that lives without players: virtual-citizen economy engine for SA-MP / open.mp, distilled from AMERTA's city design
 - [WP Jaga](https://github.com/Ptraaah/wp-jaga) - one-click WordPress hardening plugin, small enough to read end to end
 - [toko-wa](https://github.com/Ptraaah/toko-wa) - free one-file online store template, orders land in WhatsApp
@@ -15,24 +36,13 @@ Builder of small tools that earn their keep, and of **AMERTA Roleplay**, a SA-MP
 - [imgsqueeze](https://github.com/Ptraaah/imgsqueeze) - batch image compressor for the web
 - [samp-query](https://github.com/Ptraaah/samp-query) - SA-MP / open.mp server query tool and library, zero dependencies
 - [samp-jobexp](https://github.com/Ptraaah/samp-jobexp) - job EXP and level system include for SA-MP / open.mp
+- [samp-cfgcheck](https://github.com/Ptraaah/samp-cfgcheck) - validates SA-MP server.cfg files, zero dependencies
+- [romcheck](https://github.com/Ptraaah/romcheck) - checks N64 ROM headers, identities and hashes
 - [wp-plugin-triage](https://github.com/Ptraaah/wp-plugin-triage) - first-pass security triage for WordPress plugins
-- [romcheck](https://github.com/Ptraaah/romcheck) - N64 ROM identifier and converter for the recomp scene: is this the exact dump your recomp project wants?
-- [samp-cfgcheck](https://github.com/Ptraaah/samp-cfgcheck) - validates a SA-MP / open.mp server.cfg before you start the server
-
-## What I do
-
-- SA-MP / open.mp scripting (Pawn): gamemodes, systems, and running a live server end to end
-- WordPress security: plugin auditing, hardening, and proof-first vulnerability research
-- Python tools and automation that solve one problem well
-
-I help where I can in the SA-MP / open.mp and WordPress communities, and I send fixes upstream when I find something broken. If one of my tools saved you time, a star tells me to keep going.
-
-## Work with me
-
-Open to collaboration, scripting commissions, and plugin security reviews. Reach me through the AMERTA website above or right here on GitHub.
 
 ## Support
 
-If this project helped you, you can support its development on Trakteer: https://trakteer.id/adel_putra2
+Everything I make stays free. If a tool saved you time, you can support the next one:
 
-Kalau proyek ini membantu Anda, Anda bisa mendukung pengembangannya lewat Trakteer: https://trakteer.id/adel_putra2
+- [GitHub Sponsors](https://github.com/sponsors/Ptraaah)
+- [Trakteer](https://trakteer.id/adel_putra2) for supporters in Indonesia
