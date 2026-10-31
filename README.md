@@ -5,6 +5,7 @@ Builder of small tools that earn their keep, and of **AMERTA Roleplay**, a SA-MP
 ## Things I have built
 
 - [AMERTA Roleplay](https://amerta.pages.dev) - a living SA-MP / open.mp roleplay city: player economy, jobs with EXP levels, elections, documents and licences, all running live
+- [LivingCity](https://github.com/Ptraaah/livingcity) - a city that lives without players: virtual-citizen economy engine for SA-MP / open.mp, distilled from AMERTA's city design
 - [WP Jaga](https://github.com/Ptraaah/wp-jaga) - one-click WordPress hardening plugin, small enough to read end to end
 - [toko-wa](https://github.com/Ptraaah/toko-wa) - free one-file online store template, orders land in WhatsApp
 - [undangan-digital](https://github.com/Ptraaah/undangan-digital) - free one-file digital wedding invitation template
@@ -14,6 +15,8 @@ Builder of small tools that earn their keep, and of **AMERTA Roleplay**, a SA-MP
 - [samp-query](https://github.com/Ptraaah/samp-query) - SA-MP / open.mp server query tool and library, zero dependencies
 - [samp-jobexp](https://github.com/Ptraaah/samp-jobexp) - job EXP and level system include for SA-MP / open.mp
 - [wp-plugin-triage](https://github.com/Ptraaah/wp-plugin-triage) - first-pass security triage for WordPress plugins
+- [romcheck](https://github.com/Ptraaah/romcheck) - N64 ROM identifier and converter for the recomp scene: is this the exact dump your recomp project wants?
+- [samp-cfgcheck](https://github.com/Ptraaah/samp-cfgcheck) - validates a SA-MP / open.mp server.cfg before you start the server
 
 ## What I do
 
