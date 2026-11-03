@@ -1,5 +1,3 @@
-<img src="banner.webp" alt="ptraaa - small, useful tools. everything free.">
-
 # ptraaa
 
 Indonesian builder of small tools that earn their keep. I build in public, ship small and often, and everything below is live and free to use.
@@ -8,40 +6,38 @@ Lived by your own thinking.
 
 ## Live products
 
-- [Sifu Android Lag Fix](https://github.com/Ptraaah/sifu-android-lag-fix) - a small free app that patches the cooked graphics config inside your own Sifu APK so the game runs lighter on low-end and mid-range Android phones. It detects your GPU class, patches the profile your phone actually uses, and has a full settings screen. No game data included - you bring your own APK. New: v1.1.
-- [ZeroServer](https://ptraaah.github.io/zeroserver/) - send files straight from one browser to another: no file server, no account, no size limit set by a service. One single HTML file, verified with SHA-256 on arrival. Now at v1.3, with a TURN relay for when a direct connection is blocked, tested on the same network and across different ones. [Source](https://github.com/Ptraaah/zeroserver)
+- [ZeroServer](https://ptraaah.github.io/zeroserver/) - send files straight from one browser to another: no file server, no account, no size limit set by a service. One single HTML file, verified with SHA-256 on arrival. Now at v1.5, with a TURN relay for when a direct connection is blocked. [Source](https://github.com/Ptraaah/zeroserver)
 - [AMERTA Roleplay](https://amerta.pages.dev) - a living SA-MP / open.mp roleplay city: player economy, jobs with EXP levels, elections, documents and licences, running live. [Join the Discord](https://discord.gg/qTVC7px7sV)
+- [God Hand, recompiled for Android](https://github.com/Ptraaah/godhand-recompiled-android) - the PS2 game recompiled to run natively on Android, no game data included. It now runs [ARUS 1.0](https://github.com/Ptraaah/godhand-recompiled-android/blob/main/ARUS.md), my adaptive graphics pipeline for recompiled PS2 games on mobile GPUs: upload dedup, block shading, async readbacks and a bounded queue, all behind one switch.
+- [Sifu Android Lag Fix](https://github.com/Ptraaah/sifu-android-lag-fix) - a free app that applies a device-proven lag fix profile to Sifu on Android. No root, no server, nothing locked.
 
 ## Open source contributions
 
-Merged into other people's projects:
+25 of my pull requests have been merged into other people's projects so far. The biggest one:
 
-- [Prestashop-MCP-Server](https://github.com/novalo-dev/Prestashop-MCP-Server/pull/160) - the somcp_list_return_statuses tool, shipped in release 1.1.2
-- [Prestashop-MCP-Server](https://github.com/novalo-dev/Prestashop-MCP-Server/pull/162) - the somcp_create_return_status tool
-- [arcpanel](https://github.com/arc-panel-oss/arcpanel/pull/22) - BATS tests for the timezone listing
-- [arcpanel](https://github.com/arc-panel-oss/arcpanel/pull/24) - BATS tests for shells and database types
-- [arcpanel](https://github.com/arc-panel-oss/arcpanel/pull/25) - BATS tests for user packages and DNS templates
-- [arcpanel](https://github.com/arc-panel-oss/arcpanel/pull/26) - a locale script fix that took a converter from 0 locales working to all 42
+- [symfony/symfony](https://github.com/symfony/symfony/pull/67799) - fixed infinite Messenger retries when a serializer throws a decoding failure instead of wrapping it. The message now reaches the failure transport instead of looping forever. The reporter tested the fix and the maintainer merged it.
+
+Also merged:
+
+- [reader](https://github.com/jzheaux/reader/pull/211) - failing element checks that fail fast instead of hanging the test run, plus [keyboard behaviour tests](https://github.com/jzheaux/reader/pull/210). Both land in the 0.0.4 release.
+- [Prestashop-MCP-Server](https://github.com/novalo-dev/Prestashop-MCP-Server/pull/158) - a full return and order status tool family for the MCP server: [list](https://github.com/novalo-dev/Prestashop-MCP-Server/pull/158), [create](https://github.com/novalo-dev/Prestashop-MCP-Server/pull/162), [update](https://github.com/novalo-dev/Prestashop-MCP-Server/pull/163), [create order status](https://github.com/novalo-dev/Prestashop-MCP-Server/pull/165) and [delete](https://github.com/novalo-dev/Prestashop-MCP-Server/pull/166). The first one shipped in release 1.1.2.
+- [gslider-blocks](https://github.com/noruzzamans/gslider-blocks/pull/563) - eight merged PRs: test fixes for the style generator, the admin dashboard made translation-ready, and a run of escaping and mock fixes for the 1.2.2 release. I am listed in the repo's contributors.
+- [arcpanel](https://github.com/arc-panel-oss/arcpanel/pull/22) - BATS tests for the timezone listing, [shells and database types](https://github.com/arc-panel-oss/arcpanel/pull/24), [user packages and DNS templates](https://github.com/arc-panel-oss/arcpanel/pull/25), and [a locale script fix](https://github.com/arc-panel-oss/arcpanel/pull/26) that took a converter from 0 locales working to all 42.
+- [Sniffnet](https://github.com/GyulyVGC/sniffnet/pull/1345) - completing the Indonesian translation
 - [yazses](https://github.com/MSKazemi/yazses/pull/743) - native-speaker review of the Indonesian docs; I am the project's Indonesian reviewer now
-- [gslider-blocks](https://github.com/noruzzamans/gslider-blocks/pull/563) - test fixes for the style generator; I am listed in the repo's contributors
-- [gslider-blocks](https://github.com/noruzzamans/gslider-blocks/pull/567) - eight fixes and test repairs (pulls 564 and 567-572) that shipped in release 1.2.2
-- [Prestashop-MCP-Server](https://github.com/novalo-dev/Prestashop-MCP-Server/pull/163) - the somcp_update_return_status tool
-- [Prestashop-MCP-Server](https://github.com/novalo-dev/Prestashop-MCP-Server/pull/165) - the somcp_create_order_status tool
-- [DIO](https://github.com/nisaral/DIO/pull/31) - clean exit codes, error messages and tests for the check-config work
+- [floe](https://github.com/jannskiee/floe/pull/843) - desktop shortcuts no longer die while the settings switches hold focus
+- [watch-tower](https://github.com/Andrewpk/watch-tower/pull/105) - a connection filter for the queries page
+- [DIO](https://github.com/nisaral/DIO/pull/31) - a --version flag and a check-config command, with tests
 
 In review or assigned right now:
 
-- [Prestashop-MCP-Server](https://github.com/novalo-dev/Prestashop-MCP-Server/pull/166) - the somcp_delete_return_status tool
 - [WooCommerce](https://github.com/woocommerce/woocommerce/pull/70479) - what a customer spent within a chosen date range, for both order storage modes
-- [career-ops](https://github.com/career-ops-hq/career-ops/pull/6364) - the Indonesian README; the other translator thanked me in public and closed his own draft in my favour
-- [floe](https://github.com/jannskiee/floe/pull/843) - desktop shortcuts no longer die while the settings switches hold focus
+- [career-ops](https://github.com/career-ops-hq/career-ops/pull/6364) - the Indonesian README, back with the maintainer for re-review
 - [moodle-theme_boost_union](https://github.com/moodle-an-hochschulen/moodle-theme_boost_union/pull/1468) - an admin setting for link decoration
-- [watch-tower](https://github.com/Andrewpk/watch-tower/pull/105) - a connection filter for the queries page
-- [reader](https://github.com/jzheaux/reader/pull/211) - failing element checks that fail fast instead of hanging the test run, plus [keyboard behaviour tests](https://github.com/jzheaux/reader/pull/210)
-- [Sniffnet](https://github.com/GyulyVGC/sniffnet/pull/1345) - completing the Indonesian translation
 - [parliament-streams](https://github.com/dlq/parliament-streams/pull/68) - native review of the Indonesian site texts
 - [cryptex](https://github.com/gungortarik/cryptex/pull/22) - negative-path tests for the MCP server
 - [sony-inzone-buds-linux](https://github.com/RavenEibu/sony-inzone-buds-linux/pull/34) - native review of the Indonesian translation
+- ZeroServer listings in [awesome-webrtc](https://github.com/nuzulul/awesome-webrtc/pull/28) and [awesome-peer-to-peer](https://github.com/kgryte/awesome-peer-to-peer/pull/48)
 
 ## Small tools, one job each
 
